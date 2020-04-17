@@ -1,0 +1,70 @@
+.container {
+  padding-top: 15px;
+  display: grid;
+  grid-template-columns: 170px auto;
+  grid-gap: 5px;
+  grid-template-areas:
+    "ui tp"
+    ". tf";
+}
+
+.container-todo-form {
+  grid-area: tf;
+}
+
+.newtodoform {
+  padding-top: 5px;
+  width: 350px;
+  margin: auto;
+  background-color: #ececec;
+  text-align: center;
+}
+
+.add-new {
+  text-align: center;
+  font-weight: bold;
+  background-color: #222831;
+  color: white;
+  cursor: pointer;
+}
+
+.todo-description {
+  background-color: #ececec;
+  padding-top: 0;
+  text-align: center;
+}
+
+.text-danger {
+  cursor: pointer;
+}
+.text-sucess {
+  cursor: pointer;
+  font-size: 13px;
+}
+
+.panel-item {
+  height: 50px;
+  background-color: #30475e;
+  color: white;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.panel-selected {
+  background-color: #222831;
+  font-weight: bold;
+  text-align: right;
+}
+
+.footer {
+  background-color: #f2a365;
+  color: white;
+  text-align: center;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.my-2 {
+  margin-bottom: 0 !important;
+}
